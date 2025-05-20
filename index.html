@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <title>Deflix</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form class="josefina">
+    <form div class="josefina">
         <h3>cadastro</h3>
         <input type="text" placeholder="login" ID="login">
         <input type="password" placeholder="senha" ID="senha">
         <input type="email" placeholder="email" ID="email">
         <input type="telephone" placeholder="telefone" ID="telefone">
-        <input type="submit" oncclick=" logar (); return false">
+        <button type="submit"> entrar </button>
 
     </form>
       <script>
     function logar() {
-        var login=document.getElemantBxId("login").valve;
-        var senha=document.getElemntBxId("senha").vave;
+        var login=document.getElemantById("login").value;
+        var senha=document.getElemntById("senha").value;
 
-    if(login=="admin"&& senha"admin") {
+    if(login=="admin"&& senha=="admin") {
         alert("sucesso");
     location.href="home.html";
      }else{
@@ -28,12 +29,6 @@
     }
       }
     </script>
-
-    <section class="container about" ID="about"> 
-<div class="josefina">
-        <h1>  deflix </h1>
         
-    </div>
-    </section>
  </body>
 </html>
