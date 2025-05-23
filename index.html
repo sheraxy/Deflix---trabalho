@@ -6,22 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deflix </title>
 </head>
+<link rel="stylesheet" href="style.css">
 <body>
-<link rel="stylesheet" herf="style.css">    
 <form class="josefina">
-
         <h3>Cadastro</h3>
         <input type="text" placeholder="Login" id="login">
         <input type="password" placeholder="Senha" id="senha">
         <input type="e-mail" placeholder="e-mail" id="e-mail">
         <input type="telephone" placeholder="telephone" id="telephone">
-        <input type="submit" onclick="logar(); return false">
-
-    </form>
-
+        <input type="button"value="Entrar" onclick="logar(); return false;">
+ </form>
     <script>
-
-
         function logar(){
 
             var login = document.getElementById('login').value;
