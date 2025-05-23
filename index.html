@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deflix </title>
+    <title> Deflix </title>
 </head>
 <link rel="stylesheet" href="style.css">
 <body>
-<link rel="stylesheet" href="style.css">    
+   
 
-<form class="josefina">
+    <form class="josefina">
+
         <h3>Cadastro</h3>
         <input type="text" placeholder="Login" id="login">
         <input type="password" placeholder="Senha" id="senha">
         <input type="e-mail" placeholder="e-mail" id="e-mail">
         <input type="telephone" placeholder="telephone" id="telephone">
-        <input type="button"value="Entrar" onclick="logar(); return false;">
- </form>
+        <input type="submit" onclick="logar(); return false">
+
+    </form>
+
     <script>
+
+
         function logar(){
 
             var login = document.getElementById('login').value;
